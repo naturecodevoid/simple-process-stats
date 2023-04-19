@@ -23,5 +23,5 @@ procfs = "0.9.0"
 libc = "0.2.72"
 
 [target.'cfg(target_os = "macos")'.dependencies]
-darwin-libproc = "0.2.0"
+darwin-libproc = { git = "https://github.com/Orycterope/darwin-libproc", branch = "dependencies_versions" } # https://github.com/heim-rs/darwin-libproc/pull/3
 libc = "0.2.72"
